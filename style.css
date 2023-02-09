@@ -1,0 +1,36 @@
+article > h1{
+    background-color: darkred;
+    color: white;
+    margin: 5px;
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+section > *{
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+.dagi{
+    flex-grow: 2;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav > * > *{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    color: rgb(175, 2, 60);
+}
+#jobb{
+    display: flex;
+    flex-direction: row-reverse;
+}
